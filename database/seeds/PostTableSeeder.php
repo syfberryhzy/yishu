@@ -20,7 +20,7 @@ class PostTableSeeder extends Seeder
                'description' => 'tomwood品牌落地页设计',
                'body' => 'tomwood品牌落地页设计',
                'category_id' => 8,
-               'image' => '',
+               'image' => 'upload/cate_introduce/images/bb335f3240ac45f9ae099636ab83b13f.png',
                'banner_image' => ''
            ],
             1 => [
@@ -29,7 +29,7 @@ class PostTableSeeder extends Seeder
                 'description' => 'Asunal展会墙绘设计',
                 'body' => 'Asunal展会墙绘设计',
                 'category_id' => 11,
-                'image' => '',
+                'image' => 'upload/cate_introduce/images/abbed201e975006512e66ea9e4a7cc6c.png',
                 'banner_image' => ''
             ],
             2 => [
@@ -38,7 +38,7 @@ class PostTableSeeder extends Seeder
                 'description' => '英格兰品牌设计',
                 'body' => '英格兰品牌设计',
                 'category_id' => 12,
-                'image' => '',
+                'image' => 'upload/cate_introduce/images/dcdf80272bbdf84a783ad6cd704b719a.png',
                 'banner_image' => ''
             ],
             3 => [
@@ -47,7 +47,7 @@ class PostTableSeeder extends Seeder
                 'description' => '懒熊体育响应式用户体验设计',
                 'body' => '懒熊体育响应式用户体验设计',
                 'category_id' => 8,
-                'image' => '',
+                'image' => 'upload/cate_introduce/images/36af2edd3b15f134305d44585c0f67b9.png',
                 'banner_image' => ''
             ],
             4 => [
@@ -56,7 +56,7 @@ class PostTableSeeder extends Seeder
                 'description' => 'GXG新加坡发布会预告广告视频',
                 'body' => 'GXG新加坡发布会预告广告视频',
                 'category_id' => 12,
-                'image' => '',
+                'image' => 'upload/cate_introduce/images/ecf497dd3504db31fe5f6c934d2ccb41.png',
                 'banner_image' => ''
             ],
             5 => [
@@ -65,7 +65,7 @@ class PostTableSeeder extends Seeder
                 'description' => '7喜7up两周年广告设计',
                 'body' => '7喜7up两周年广告设计',
                 'category_id' => 11,
-                'image' => '',
+                'image' => 'upload/cate_introduce/images/a7e5e3ccea9dee7d084a5875447a16a1.png',
                 'banner_image' => ''
             ],
             6 => [
@@ -74,7 +74,7 @@ class PostTableSeeder extends Seeder
                 'description' => '第六感乳胶包装设计',
                 'body' => '第六感乳胶包装设计',
                 'category_id' => 11,
-                'image' => '',
+                'image' => 'upload/cate_introduce/images/a21bb2c365282b443959d28d25e80498.jpeg',
                 'banner_image' => ''
             ],
             7 => [
@@ -83,7 +83,7 @@ class PostTableSeeder extends Seeder
                 'description' => '怪兽耳机产品设计',
                 'body' => '怪兽耳机产品设计',
                 'category_id' => 8,
-                'image' => '',
+                'image' => 'upload/cate_introduce/images/3801dce8f0d19b5267d50894730482bb.png',
                 'banner_image' => ''
             ],
             8 => [
@@ -92,7 +92,7 @@ class PostTableSeeder extends Seeder
                 'description' => 'FUSIONWOODEN谨慎标注设计',
                 'body' => 'FUSIONWOODEN谨慎标注设计',
                 'category_id' => 12,
-                'image' => '',
+                'image' => 'upload/cate_introduce/images/1ca930796dd7435a9b5381922cac2e35.png',
                 'banner_image' => ''
             ],
 

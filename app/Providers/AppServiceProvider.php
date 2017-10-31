@@ -26,7 +26,6 @@ class AppServiceProvider extends ServiceProvider
     public function register()
     {
         $this->app->singleton(SystemInfo::class, function ($app) {
-
             return SystemInfo::find(1);
         });
     }

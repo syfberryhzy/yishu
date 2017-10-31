@@ -9,6 +9,13 @@ use App\Models\Post;
 
 class Category extends Model
 {
+    const CASE_ID = 1;//案例介绍
+    const AWARD_ID = 2;//获奖记录
+    const NEW_IDS = 4;//官网资讯
+    const COMPANY_ID = 9;
+    const TEAM_ID = 10;
+
+    protected $hidden = ['created_at', 'updated_at'];
     use ModelTree, AdminBuilder;
 
 //    public function __construct(array $attributes = [])

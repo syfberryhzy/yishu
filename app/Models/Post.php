@@ -11,6 +11,7 @@ class Post extends Model
     const STATUS_ON = 1;
     const STATUS_OFF = 0;
 
+    protected $hidden = ['created_at', 'updated_at'];
     public function setBannerImageAttribute($banner_image)
     {
         if (is_array($banner_image)) {
