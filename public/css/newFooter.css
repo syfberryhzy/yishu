@@ -1,0 +1,141 @@
+/*修改开始*/
+
+.cont_box {
+    width: 100%;
+    background-color: #002fa7;
+    margin: 0 auto;
+    overflow: hidden;
+    padding: 50px 0 40px 0;
+}
+
+.cont_logo {
+    background: url('../image/logo.png') no-repeat;
+    background-position: 0 0;
+    background-size: 100% 100%;
+    width: 200px;
+    height: 70px;
+    margin: 23px 0;
+    border: 0;
+}
+
+.footer_cont {
+    /*            max-width: 1600px;
+                padding-left: 15px;
+                padding-right: 15px;*/
+}
+
+.cont-list {
+    /*width: 615px;*/
+    height: 118px;
+    line-height: 118px;
+    margin: auto;
+}
+
+.cont-list > div {
+    line-height: 118px;
+    height: 35%;
+    text-align: center;
+}
+
+.cont-list > div a {
+    color: #fff;
+    font-size: 14px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.cont-img {
+    width: 118px;
+    height: 118px;
+    background: url('../image/code.png') no-repeat;
+    background-size: 100% 100%;
+    float: left;
+}
+
+.cont-text {
+    font-size: 12px;
+    padding-left: 14px;
+    line-height: 30px;
+    width: 400px;
+}
+
+.cont-text > span {
+    display: inline-block;
+}
+
+.cont-number {
+    /*width: 100%;*/
+    text-align: center;
+    font-size: 16px;
+    color: #fff;
+    height: 80px;
+}
+
+.cont-btm {
+    margin-left: 8%;
+
+}
+
+@media screen and (max-width: 1250px) and (min-width: 768px) {
+    .cont-list {
+        width: 50%;
+        float: left;
+    }
+
+    .cont-btm {
+        width: 30%;
+        float: left;
+    }
+
+    .cont-btm {
+        /* width: 140px; */
+        /*margin-left: 15%;*/
+
+    }
+
+    .cont-img-box {
+        margin-left: 15%;
+        width: 30%;
+        float: left;
+    }
+
+    .cont-text-box {
+        width: 30%;
+        float: left;
+    }
+}
+
+@media screen  and (max-width: 768px) {
+    .cont-btm {
+        display: flex;
+        margin-left: auto;
+    }
+
+    .cont_logo {
+        margin: auto;
+
+    }
+
+    .cont-img-box {
+        display: flex;
+    }
+
+    .cont-img {
+        margin: auto;
+    }
+
+    .cont-text-box {
+        display: flex;
+    }
+
+    .cont-text {
+        width: 300px;
+        margin:auto;
+    }
+
+    /*     .text-group{
+             margin: auto;
+         }*/
+}
+
+/*修改结束*/
