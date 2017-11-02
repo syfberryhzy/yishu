@@ -19,5 +19,6 @@ Route::group([
     $router->resource('/member_info', 'MemberInfoController');
     $router->resource('/member_introduce', 'MemberIntroduceController');
     $router->resource('/system_info', 'SystemInfoController');
+    $router->resource('/banners', 'BannerController');
     $router->resource('/web_index', 'IndexController');
 });

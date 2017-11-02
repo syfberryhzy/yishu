@@ -178,6 +178,13 @@ class AdminMenuSeeder extends Seeder
                 'title'     => '系统设置',
                 'icon'      => 'fa-cog',
                 'uri'       => 'system_info',
+            ],
+            [
+                'parent_id' => 12,
+                'order'     => 10,
+                'title'     => 'Banner图',
+                'icon'      => 'fa-area-chart',
+                'uri'       => 'banners',
             ]
         ]);
 

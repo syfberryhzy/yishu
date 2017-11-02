@@ -1,6 +1,7 @@
 @extends('layouts.app')
 
 @section('content')
+
     <div class="page section2 section" id="page-2" style="display: flex">
         <div style="align-items: center;margin: auto">
             <div class="home-page2-header-content container">
