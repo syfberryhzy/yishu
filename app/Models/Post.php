@@ -8,10 +8,11 @@ use App\Models\Category;
 class Post extends Model
 {
     const WEBINDEX_ID = 13;//首页id
+    const AWARD_ID = 19;//获奖记录id
     const STATUS_ON = 1;
     const STATUS_OFF = 0;
 
-    protected $hidden = ['created_at', 'updated_at'];
+    // protected $hidden = ['created_at', 'updated_at'];
     public function setBannerImageAttribute($banner_image)
     {
         if (is_array($banner_image)) {

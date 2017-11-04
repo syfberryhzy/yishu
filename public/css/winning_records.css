@@ -1,0 +1,35 @@
+.winning-records-page {font-size: 14px; color: #333; font-family: 'Microsoft YaHei', 'SimSun'; max-width: 1180px; width: 100%; margin: 0px auto;}
+.winning-records-page .win-page2-contain {}
+.winning-records-page .win-page2-contain .block-title {margin-top: 85px;}
+.block-title {text-align: center;}
+.block-title h1 {font-size: 35px; margin: 0; margin-bottom: 20px;}
+.block-title h4 {font-size: 20px; margin: 0;}
+.block-title hr {width: 120px; height: 1px; background: #000;}
+
+.win-points-inner {display: flex; justify-content: flex-start; align-self: center; margin-top: 66px;}
+.win-points-img {display: flex; justify-content: flex-start; align-self: center; position: relative;z-index: 2;}
+.win-points-img img {max-width: 412px; width: 100%;}
+.win-points-list {background: #F1F4F9; display: flex; align-self: center; font-size: 18px; line-height: 30px; padding: 25px 0; position: relative; margin-left: -12px; padding-left: 60px; z-index: 1;}
+.win-points-list ul {list-style-image:url("/image/point.jpg");list-style-type:square; list-style-position: outside;}
+.win-points-list ul li {margin: 18px 0; padding-left: 5px;}
+
+.win-page2-contain-section {
+	margin-top: 93px;
+}
+
+.win-page2-contain-section-winner-text {
+	font-size: 16px;
+}
+
+@media (max-width: 992px) {
+	.winning-records-page .win-page2-contain {}
+	.win-points-inner {display: block;}
+	.win-points-img {text-align: center; justify-content: center;}
+	.win-points-list {padding-right: 25px; margin-top: 0px;}
+	.block-title {padding: 0 10px;}
+
+	.win-page2-contain-section-winner-text {
+		font-size: 14px;
+		margin-bottom: 10px;
+	}
+}

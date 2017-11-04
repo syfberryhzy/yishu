@@ -11,7 +11,10 @@ class Category extends Model
 {
     const CASE_ID = 1;//案例介绍
     const AWARD_ID = 2;//获奖记录
+    const ABOUT_ID = 3;//关于一树
     const NEW_IDS = 4;//官网资讯
+    const CONTACT_ID = 5;//联系我们
+    const WEBINDEX_ID = 13;//首页
     const COMPANY_ID = 9;
     const TEAM_ID = 10;
 

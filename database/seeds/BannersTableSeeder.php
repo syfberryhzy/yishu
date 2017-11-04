@@ -21,27 +21,27 @@ class BannersTableSeeder extends Seeder
            1 => [
                'id' => 2,
                'category_id' => 1,
-               'image' => '',
+               'image' => 'upload/webindex/image/ff206efe7e11de258522df682040c0f0.jpeg',
            ],
            2 => [
                'id' => 3,
                'category_id' => 2,
-               'image' => '',
+               'image' => 'upload/webindex/image/ff206efe7e11de258522df682040c0f0.jpeg',
            ],
            3 => [
                'id' => 4,
                'category_id' => 3,
-               'image' => '',
+               'image' => 'upload/webindex/image/ff206efe7e11de258522df682040c0f0.jpeg',
            ],
            4 => [
                'id' => 5,
                'category_id' => 4,
-               'image' => '',
+               'image' => 'upload/webindex/image/ff206efe7e11de258522df682040c0f0.jpegupload/webindex/image/ff206efe7e11de258522df682040c0f0.jpeg',
            ],
            5 => [
                'id' => 6,
                'category_id' => 5,
-               'image' => '',
+               'image' => 'upload/webindex/image/ff206efe7e11de258522df682040c0f0.jpeg',
            ]
         ]);
     }

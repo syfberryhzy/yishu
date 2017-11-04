@@ -223,7 +223,13 @@ class PostTableSeeder extends Seeder
                 'id' => 19,
                 'title' => '获奖说明',
                 'description' => '获奖说明',
-                'body' => '<p>囊括世界3大设计奖:德国if、红点、美国IDEA设计奖以及一系列国内外权威奖项。获得联合国世界包装组织世界之星包装奖国内目前唯一主席大奖（每年全球3名）。获得6项世界之星包装奖（联合国世界包装组织）公司成员获得设计人才的国家级奖项： 2016中国光华龙腾提名奖设计业10大杰 出青年（国家科技奖励办公室）获得中国包装科学技术奖,公司骨干入选国家双创人才计划重点人才库。&nbsp;<br>获得国家专利20多项……</p><p><br></p>',
+                'body' => '<ul>
+                                <li>囊括世界3大设计奖:德国if、红点、美国IDEA设计奖以及一系列国内外权威奖项。</li>
+                                <li>获得联合国世界包装组织世界之星包装奖国内目前唯一主席大奖（每年全球3名）。</li>
+                                <li>获得6项世界之星包装奖（联合国世界包装组织）</li>
+                                <li>公司成员获得设计人才的国家级奖项： 2016中国光华龙腾提名奖设计业10大杰出青年（国家科技奖励办公室）</li>
+                                <li>获得中国包装科学技术奖,公司骨干入选国家双创人才计划重点人才库。<br>获得国家专利20多项……</li>
+                            </ul>',
                 'category_id' => 2,
                 'image' => 'upload/webindex/image/a3603b0f04b60af13f5d5d2c2b3f4857.png',
                 'banner_image' => ''
@@ -234,18 +240,28 @@ class PostTableSeeder extends Seeder
                 'description' => 'Company Introdution 公司介绍',
                 'body' => '<p>ISU DESIGN<br>一树设计是一树纸业集团旗下的专业设计公司，主营专业设计服务，包装设计，企业品牌形象设<br>计以及文创产品开发。我们的团队由业内知名设计总监带领，所有设计师均经过层层选拔。</p><p><br></p>',
                 'category_id' => 9,
-                'image' => 'upload/company_introduce/image/0e823e0cd17382e1fca3af96199b596b.png',
+                'image' => 'upload/webindex/image/9d5f34f8481d51dd786f2be8a27179d9.jpeg',
                 'banner_image' => ''
             ],
             20 => [
                 'id' => 21,
                 'title' => 'Team Introdution 团队介绍',
                 'description' => '我们是个充满活力的，完全由“设计强迫症”“完美主义者”组建而成的年轻团队。年轻绝对不代表我们不专业，正因为年轻，我们更不敢懈怠，您的每一次设计，我们都会作为我们最好的宣传案例，全力以赴。',
-                'body' => '<p>我们是个充满活力的，完全由“设计强迫症”“完美主义者”组建而成的年轻团队。年轻绝对不代表我们不专业，正因为年轻，我们更不敢懈怠，您的每一次设计，我们都会作为我们最好的宣传案例，全力以赴。
-</p><p> 对待设计，我们一丝不苟，不容许有任何差池和不满意。
-</p><p> 对待设计，我们与国际接轨，引领高水平品味。
-</p><p> 对待设计，我们想在人前，为客户做好一切准备。
-</p><p> 对待设计，我们致以最高的诚信和诚意。</p><p><br></p>',
+                'body' => '<ul class="with-page3-content-team-details-title-list col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                        <li>
+                            对待设计，我们一丝不苟，不容许有任何差池和不满意。
+                        </li>
+                        <li>
+                            对待设计，我们与国际接轨，引领高水平品味。
+                        </li>
+                        <li>
+                            对待设计，我们想在人前，为客户做好一切准备。
+                        </li>
+                        <li>
+                            对待设计，我们致以最高的诚信和诚意。
+                        </li>
+
+                    </ul>',
                 'category_id' => 10,
                 'image' => 'upload/webindex/image/930b45a9d71124c29779f7abb48fddc7.png',
                 'banner_image' => ''
@@ -254,9 +270,14 @@ class PostTableSeeder extends Seeder
                 'id' => 22,
                 'title' => '团队简介',
                 'description' => '团队简介',
-                'body' => '<p>我们的设计师们，怀着对设计最强烈的<br>热枕和最尊敬的态度，把最美好的设计呈现给您。</p><p><br></p>',
+                'body' => '<ul>
+                        <li>
+                            我们的设计师们，怀着对设计最强烈的<br>
+                            热枕和最尊敬的态度，把最美好的设计呈现给您。
+                        </li>
+                    </ul>',
                 'category_id' => 10,
-                'image' => 'upload/webindex/image/47d653a00533ab7541975b2606dd6ddd.png',
+                'image' => 'upload/webindex/image/ae599ad0e3fb20fc56aba099c398363e.png',
                 'banner_image' => ''
             ]
         ]);
