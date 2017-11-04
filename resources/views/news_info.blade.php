@@ -152,6 +152,9 @@
         otherNav();
         viewpointDetainFullpage();
     });
+    $('.viewpointdetail-page2-content-nav-button').on('click', function () {
+        location.href = '{{route('news')}}'
+    })
 </script>
 </body>
 </html>

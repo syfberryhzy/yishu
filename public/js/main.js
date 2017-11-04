@@ -916,9 +916,7 @@ function viewpointDetainFullpage() {
      }
      }
      });*/
-    $('.viewpointdetail-page2-content-nav-button').on('click', function () {
-        location.href = 'viewpoint.html'
-    })
+    
 }
 //viewpointDetain动效end
 
