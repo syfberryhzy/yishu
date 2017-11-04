@@ -5938,3 +5938,12 @@ ul {
         height: 300px;
     }
 }
+@media screen and (max-width: 768px) {
+
+  .win-page2-contain-section {
+      margin-top: 10px !important;
+  }
+  .win-page2-contain-section {
+      padding-top: 10px !important;
+  }
+}
