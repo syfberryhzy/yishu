@@ -15,13 +15,14 @@
 //     return view('index');
 // });
 Auth::routes();
-Route::group(['prefix' => '/zh'], function () {
-    Route::get('/', 'IndexController@index')->name('home');
-    Route::get('/case', 'IndexController@case')->name('case');
-    Route::get('/case/{id}', 'IndexController@caseInfo')->name('caseInfo');
-    Route::get('/awards', 'IndexController@award')->name('awards');
-    Route::get('/abouts', 'IndexController@about')->name('abouts');
-    Route::get('/news', 'IndexController@news')->name('news');
-    Route::get('/news/{id}', 'IndexController@newsInfo')->name('newsInfo');
-    Route::get('/contact', 'IndexController@contact')->name('contact');
-});
+// Route::group(['prefix' => ''], function () {
+//
+// });
+Route::get('/', 'IndexController@index')->name('home');
+Route::get('/case', 'IndexController@case')->name('case');
+Route::get('/case/{id}', 'IndexController@caseInfo')->name('caseInfo');
+Route::get('/awards', 'IndexController@award')->name('awards');
+Route::get('/abouts', 'IndexController@about')->name('abouts');
+Route::get('/news', 'IndexController@news')->name('news');
+Route::get('/news/{id}', 'IndexController@newsInfo')->name('newsInfo');
+Route::get('/contact', 'IndexController@contact')->name('contact');
