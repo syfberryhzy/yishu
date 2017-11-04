@@ -112,7 +112,7 @@
                         </ul>
                     </div>
                     <div class="footer-contact">
-                        <div class="qrcode"><img src="image/code.jpg"/></div>
+                        <div class="qrcode"><img src="/storage/{{$config['qrcode']}}"/></div>
                         <div class="contact">
                             <ul>
                               <li>电话：{{$config['phone']}}</li>

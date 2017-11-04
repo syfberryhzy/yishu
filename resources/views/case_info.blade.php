@@ -100,30 +100,6 @@
               </div>
             @endforeach
           @endif
-
-
-            {{-- <div class="example-details-page3-container2 col-xs-12 col-sm-12 col-md-12 col-lg-6">
-                <div class="detail-page3-right-img-box">
-
-                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-                        <div class="detail-page3-right-img1 detail-page3-img-team"></div>
-                    </div>
-
-                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 detail-page3-right-img2-box">
-                        <div class="detail-page3-right-img2 detail-page3-img-team"></div>
-                    </div>
-
-                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 detail-page3-right-bottom-img-box">
-                        <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 ">
-                            <div class="detail-page3-right-img3 detail-page3-img-team"></div>
-                        </div>
-                        <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
-                            <div class="detail-page3-right-img4 detail-page3-img-team"></div>
-                        </div>
-                    </div>
-
-                </div>
-            </div> --}}
         </div>
         </div>
         <div style="width:100%; height:200px;"></div>
@@ -143,7 +119,7 @@
                         </ul>
                     </div>
                     <div class="footer-contact">
-                        <div class="qrcode"><img src="/image/code.jpg"/></div>
+                        <div class="qrcode"><img src="/storage/{{$config['qrcode']}}"/></div>
                         <div class="contact">
                             <ul>
                               <li>电话：{{$config['phone']}}</li>

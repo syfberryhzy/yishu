@@ -7,7 +7,7 @@
     <!--    <link rel="stylesheet" href="css/jquery.fullPage.css">-->
     <link rel="stylesheet" href="css/common.css" type="text/css" media="screen"/>
     <link rel="stylesheet" href="css/index.css" type="text/css" media="screen"/>
-
+<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon"> 
     <script src="js/jquery.js"></script>
     <!--    <script src="js/jquery-ui.min.js"></script>
             <script src="js/jquery.fullPage.min.js"></script>
@@ -338,7 +338,7 @@
                         </ul>
                     </div>
                     <div class="footer-contact">
-                        <div class="qrcode"><img src="image/code.jpg"/></div>
+                        <div class="qrcode"><img src="/storage/{{$config['qrcode']}}"/></div>
                         <div class="contact">
                             <ul>
                               <li>电话：{{$config['phone']}}</li>

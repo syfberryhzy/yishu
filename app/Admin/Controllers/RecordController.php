@@ -100,6 +100,7 @@ class RecordController extends Controller
         return Admin::form(Record::class, function (Form $form) {
 
             $form->display('id', 'ID');
+            $form->display('category_id', '所属分类')->default('获奖记录');
             $form->text('name', '名称');
             $form->text('english_name', '英文名称');
             $form->text('ranking', '比赛名次哦');

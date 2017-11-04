@@ -132,48 +132,7 @@
                     </div>
                     @endif
                   @endforeach
-                    {{-- <div class=" col-xs-6 col-sm-4 col-md-4 col-lg-4">
-                        <div class="with-page3-content-team-details-imgs-box">
-                            <div class="with-page3-content-team-details-img-team with-page3-content-team-details-img1"></div>
-                            <div class="with-page3-content-team-details-name">郭沁</div>
-                            <div class="with-page3-content-team-details-position">首席设计总监</div>
-                        </div>
-                    </div>
-                    <div class=" col-xs-6 col-sm-4 col-md-4 col-lg-4">
-                        <div class="with-page3-content-team-details-imgs-box">
-                            <div class="with-page3-content-team-details-img-team with-page3-content-team-details-img2"></div>
-                            <div class="with-page3-content-team-details-name">方泽飞</div>
-                            <div class="with-page3-content-team-details-position">创意设计总监</div>
-                        </div>
-                    </div>
-                    <div class=" col-xs-6 col-sm-4 col-md-4 col-lg-4">
-                        <div class="with-page3-content-team-details-imgs-box">
-                            <div class="with-page3-content-team-details-img-team with-page3-content-team-details-img3"></div>
-                            <div class="with-page3-content-team-details-name">严墙</div>
-                            <div class="with-page3-content-team-details-position">GUI设计师</div>
-                        </div>
-                    </div>
-                    <div class=" col-xs-6 col-sm-4 col-md-4 col-lg-4">
-                        <div class="with-page3-content-team-details-imgs-box">
-                            <div class="with-page3-content-team-details-img-team with-page3-content-team-details-img4"></div>
-                            <div class="with-page3-content-team-details-name">安坤</div>
-                            <div class="with-page3-content-team-details-position">UED设计师</div>
-                        </div>
-                    </div>
-                    <div class=" col-xs-6 col-sm-4 col-md-4 col-lg-4">
-                        <div class="with-page3-content-team-details-imgs-box">
-                            <div class="with-page3-content-team-details-img-team with-page3-content-team-details-img5"></div>
-                            <div class="with-page3-content-team-details-name">杨涵韵</div>
-                            <div class="with-page3-content-team-details-position">天猫设计总监</div>
-                        </div>
-                    </div>
-                    <div class=" col-xs-6 col-sm-4 col-md-4 col-lg-4">
-                        <div class="with-page3-content-team-details-imgs-box">
-                            <div class="with-page3-content-team-details-img-team with-page3-content-team-details-img6"></div>
-                            <div class="with-page3-content-team-details-name">薛让</div>
-                            <div class="with-page3-content-team-details-position">视觉动效设计师</div>
-                        </div>
-                    </div>--}}
+                  
                 </div>
 
             </div>
@@ -209,7 +168,7 @@
                         </ul>
                     </div>
                     <div class="footer-contact">
-                        <div class="qrcode"><img src="image/code.jpg"/></div>
+                        <div class="qrcode"><img src="/storage/{{$config['qrcode']}}"/></div>
                         <div class="contact">
                             <ul>
                               <li>电话：{{$config['phone']}}</li>

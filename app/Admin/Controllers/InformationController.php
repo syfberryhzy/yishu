@@ -72,12 +72,18 @@ class InformationController extends Controller
     protected function grid()
     {
         return Admin::grid(Post::class, function (Grid $grid) {
-            $grid->model()->where('category_id', '4');
+            $grid->model()->where('category_id', '4')->orderBy('id', 'desc');
             $grid->id('ID')->sortable();
             $grid->title('文章标题')->badge('green');
             $grid->image('文章配图')->image();
             $grid->created_at('发布时间');
-            //$grid->updated_at();
+            $grid->disableExport();
+            $grid->filter( function ($filter) {
+                $filter->disableIdFilter();
+                $filter->where(function ($query) {
+                    $query->where('title', 'like', "%{$this->input}%");
+                }, '标题');
+            });
         });
     }
 
