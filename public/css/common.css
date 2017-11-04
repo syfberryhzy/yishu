@@ -4282,7 +4282,7 @@ ul {
 }
 
 @media screen and (max-width: 768px) {
-    
+
 }
 
 .detail-page2-right-content-img {
@@ -4395,7 +4395,7 @@ ul {
     }
 
     .detail-page2-left-content-artice-text {
-        
+
         margin: 20px auto;
         align-items: center;
     }
@@ -4824,7 +4824,6 @@ ul {
 }
 
 .win-page2-contain-section-winner-img-team {
-    width: 156px;
     height: 212px;
     background-size: 100% 100%;
     margin: auto;
@@ -5154,10 +5153,8 @@ ul {
 }
 
 @media screen and (max-width: 411px) {
-    .win-page2-contain-section-winner-img-team {
-        width: 125px;
-        height: 167px;
-        background-size: 100%, 100%;
+    .win-page2-contain-section-winner-img-team img{
+        width: 80%;
     }
 
     .win-img-team2 {
@@ -5941,5 +5938,3 @@ ul {
         height: 300px;
     }
 }
-
-
