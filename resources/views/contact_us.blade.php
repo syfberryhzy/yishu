@@ -143,8 +143,8 @@
             id: 1,
             lng: 120.182749,
             lat: 30.219782,
-            title: "杭州海运国际大厦",
-            content: ["地址：{{$config['address']}}", "电话：{{$config['tel']}}"]
+            title: "地址：{{$config['address']}}",
+            content: ["电话：{{$config['phone']}}", "邮箱：{{$config['email']}}", ]
         }];
         new BaiduMap({
             id: "contact_map_container1",
