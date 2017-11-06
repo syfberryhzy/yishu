@@ -138,6 +138,30 @@
         otherNav();
         map();
     })
+    function map() {
+        var points = [{
+            id: 1,
+            lng: 120.182749,
+            lat: 30.219782,
+            title: "杭州海运国际大厦",
+            content: ["地址：{{$config['address']}}", "电话：{{$config['tel']}}"]
+        }];
+        new BaiduMap({
+            id: "contact_map_container1",
+            level: 16,
+            titleClass: "title",
+            contentClass: "content",
+            centerPoint: {
+                // 地图中心点经纬度
+                lng: 120.182749,
+                lat: 30.219782
+            },
+            index: -1,
+            points: points,
+            // showLabel: true
+        });
+
+    }
 </script>
 </body>
 </html>

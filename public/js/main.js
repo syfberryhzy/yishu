@@ -724,30 +724,7 @@ function exampleShowActive() {
 //exanple动画end
 
 //contact_us动效star
-function map() {
-    var points = [{
-        id: 1,
-        lng: 120.182749,
-        lat: 30.219782,
-        title: "杭州海运国际大厦",
-        content: ["地址：浙江省杭州市上城区之江中路与中河南路交汇处", "电话：0571-86805399"]
-    }];
-    new BaiduMap({
-        id: "contact_map_container1",
-        level: 16,
-        titleClass: "title",
-        contentClass: "content",
-        centerPoint: {
-            // 地图中心点经纬度
-            lng: 120.182749,
-            lat: 30.219782
-        },
-        index: -1,
-        points: points,
-        // showLabel: true
-    });
 
-}
 function contactUsFullpage() {
     $('#h5').fullpage({
         scrollOverflow: true,
