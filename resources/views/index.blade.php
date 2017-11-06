@@ -14,7 +14,7 @@
             &lt;!&ndash; 如果 scrollOverflow 设置为 true，则需要引入 jquery.slimscroll.min.js，一般情况下不需要 &ndash;&gt;
             <script src="js/jquery.slimscroll.min.js"></script>-->
     <script src="js/parallax.js"></script>
-    <title>首页</title>
+    <title>Home</title>
     <script src="js/main.js"></script>
     <style>
         .login-con > li > div > a :hover{

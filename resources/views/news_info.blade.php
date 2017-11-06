@@ -6,7 +6,7 @@
     <link rel="stylesheet" href="/css/reset.css" type="text/css" media="screen"/>
     <link rel="stylesheet" href="/css/bootstrap.min.css">
     <link rel="stylesheet" href="/css/common.css">
-    <title>观点资讯详情</title>
+    <title>News Info</title>
     <script src="/js/jquery.js"></script>
     <style>
       .news-body img {

@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/common.css" type="text/css" media="screen"/>
     <link rel="stylesheet" href="css/about.css" type="text/css" media="screen"/>
-    <title>关于一树</title>
+    <title>About</title>
     <script src="js/jquery.js"></script>
 
 </head>

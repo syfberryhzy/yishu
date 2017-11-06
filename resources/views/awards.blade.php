@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="/css/bootstrap.min.css">
     <link rel="stylesheet" href="/css/common.css" type="text/css" media="screen"/>
     <link rel="stylesheet" href="/css/winning_records.css" type="text/css" media="screen"/>
-    <title>获奖记录</title>
+    <title>Awards</title>
     <script src="/js/jquery.js"></script>
 
 </head>

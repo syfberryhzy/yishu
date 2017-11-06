@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="css/reset.css" type="text/css" media="screen"/>
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/common.css" type="text/css" media="screen"/>
-    <title>联系我们</title>
+    <title>Contact</title>
     <script src="js/jquery.js"></script>
 <!--    <script src="js/parallax.js"></script>-->
     <script src="js/jquery.baiduMap.min.js"></script>
@@ -137,6 +137,30 @@
         otherNav();
         map();
     })
+    function map() {
+    var points = [{
+        id: 1,
+        lng: 120.182749,
+        lat: 30.219782,
+        title: "地址：{{$config['address']}}",
+        content: ["电话：{{$config['phone']}}", "邮箱：{{$config['email']}}", ]
+    }];
+    new BaiduMap({
+        id: "contact_map_container1",
+        level: 16,
+        titleClass: "title",
+        contentClass: "content",
+        centerPoint: {
+            // 地图中心点经纬度
+            lng: 120.182749,
+            lat: 30.219782
+        },
+        index: -1,
+        points: points,
+        // showLabel: true
+    });
+
+}
 </script>
 </body>
 </html>
