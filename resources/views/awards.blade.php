@@ -25,9 +25,9 @@
             </div>
             <div class="other-nav logo-btn-box">
                 <div class="logo-a">
-                    <a class="logo-a-en unselected" href="{{route('home')}}">EN</a>
+                    <a class="logo-a-en  {{ preg_match('/^http:\/\/en.isudesign/', request()->url()) ? 'selected' : 'unselected'}}" href="http://en.isudesign.mandokg.com">EN</a>
                     <span> / </span>
-                    <a class="cn selected" href="{{route('home')}}">中文</a>
+                    <a class="cn {{ preg_match('/^http:\/\/en.isudesign/', request()->url()) ? 'unselected': 'selected' }}" href="http://isudesign.mandokg.com">中文</a>
                 </div>
                 <div id="btnLogin" hidefocus="true" class="login-btn">
                     <div><img src="/image/sanheng.png" class="open"/></div>
