@@ -74,14 +74,6 @@
 
                 </div>
                 {!!$data['body']!!}
-                {{-- <p class="detail-page2-left-content-artice-text"> --}}
-                        {{-- <span>
-                        商业的角度深入挖掘产业背后的故事，为中国商业体育产业的前进提供一线的资讯<br>
-                        发现成功的线索，理清商业脉络。 懒熊体育力争做成体育与商业跨界的第一媒体<br>
-                        nicedesign奈思设计为懒熊体育提供体育资讯、体育创业融投资平台的整合、用户体验设计及平台开发等服务<br>
-                        </span> --}}
-
-                {{-- </p> --}}
             </div>
 
             <div class="col-xs-12 col-sm-12 col-md-12 col-lg-6 detail-page2-right-content">

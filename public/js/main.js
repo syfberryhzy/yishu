@@ -686,9 +686,9 @@ function homePage4Hover(boxId, imgEle, altEle, font) {
 
 //exanple动画start
 function exampleFullpage() {
-    $('.example-page2-hover').on('click', function () {
-        location.href = './example_details.html';
-    })
+    // $('.example-page2-hover').on('click', function () {
+    //     location.href = './example_details.html';
+    // })
 }
 function imgHover(altEle) {
     var altEle = altEle;
@@ -916,7 +916,7 @@ function viewpointDetainFullpage() {
      }
      }
      });*/
-    
+
 }
 //viewpointDetain动效end
 
