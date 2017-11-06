@@ -19,8 +19,8 @@
             <div class="nav" id="nav">
                 <div class="menu">
                     <img src="image/logo.png" class="logo"/>
-                    <div class="menu-block"><span>红点奖</span><br><span>IF 奖</span></div>
-                    <div class="menu-block"><span>世界之星奖</span><br><span>IDEA奖</span></div>
+                    <div class="menu-block"><span>Red dot Award</span><br><span>IF Award</span></div>
+                    <div class="menu-block"><span>World Star Award</span><br><span>IDEA Award</span></div>
                 </div>
             </div>
             <div class="other-nav logo-btn-box">
@@ -40,22 +40,22 @@
                 </div>
                 <ul class='login-con'>
                   <li>
-                      <div><a href="{{route('home')}}">首页</a></div>
+                      <div><a href="{{route('home')}}">Home</a></div>
                   </li>
                   <li>
-                      <div><a href="{{route('case')}}">案例介绍</a></div>
+                      <div><a href="{{route('case')}}">Cases</a></div>
                   </li>
                   <li>
-                      <div><a href="{{route('awards')}}">获奖记录</a></div>
+                      <div><a href="{{route('awards')}}">Awards</a></div>
                   </li>
                   <li>
-                      <div><a href="{{route('abouts')}}">关于一树</a></div>
+                      <div><a href="{{route('abouts')}}">About</a></div>
                   </li>
                   <li>
-                      <div><a href="{{route('news')}}">观点资讯</a></div>
+                      <div><a href="{{route('news')}}">News</a></div>
                   </li>
                   <li>
-                      <div><a href="{{route('contact')}}">联系我们</a></div>
+                      <div><a href="{{route('contact')}}">Contact</a></div>
                   </li>
                 </ul>
             </div>
@@ -64,15 +64,15 @@
     <div class="example-page">
         <div class="container">
             <div class="block-title">
-                <h1>案例介绍</h1>
+                <h1>Case introduction</h1>
                 <hr class="center-block home-hr"/>
-                <h4>每位伙伴，我们都用百分百的诚意来服务</h4>
+                <h4>Every partner, we all use 100% sincerity to serve</h4>
             </div>
             <div class="example-tab">
                 <ul>
-                    <li class="on"><a href="javascript:void(0)">全部</a></li>
-                    <li><a href="javascript:void(0)">文创</a></li>
-                    <li><a href="javascript:void(0)">包装</a></li>
+                    <li class="on"><a href="javascript:void(0)">All</a></li>
+                    <li><a href="javascript:void(0)">Cultural</a></li>
+                    <li><a href="javascript:void(0)">Package</a></li>
                     <li><a href="javascript:void(0)">VI</a></li>
                 </ul>
             </div>
@@ -86,7 +86,7 @@
                             <div class="example-imgs-box">
                                 <div class="example-page2-image-team example-page2-image1"style="background: url(storage/{{$val['image']}}) no-repeat;"></div>
                                 <div class="example-page2-image-team example-page2-hover-box example-page2-image{{$val->id}}-alt hiden">
-                                    <div class="example-page2-hover"><a href="/case/{{$val->id}}">查看详情</a></div>
+                                    <div class="example-page2-hover"><a href="/case/{{$val->id}}">see details</a></div>
                                 </div>
                             </div>
                           </a>
@@ -106,7 +106,7 @@
                                 <div class="example-imgs-box">
                                     <div class="example-page2-image-team example-page2-image1"style="background: url(storage/{{$val['image']}}) no-repeat;"></div>
                                     <div class="example-page2-image-team example-page2-hover-box example-page2-image{{$val->id}}-alt hiden">
-                                        <div class="example-page2-hover"><a href="/case/{{$val->id}}">查看详情</a></div>
+                                        <div class="example-page2-hover"><a href="/case/{{$val->id}}">see details</a></div>
                                     </div>
                                 </div>
                               </a>
@@ -127,7 +127,7 @@
                             <div class="example-imgs-box">
                                 <div class="example-page2-image-team example-page2-image1"style="background: url(storage/{{$val['image']}}) no-repeat;"></div>
                                 <div class="example-page2-image-team example-page2-hover-box example-page2-image{{$val->id}}-alt hiden">
-                                    <div class="example-page2-hover"><a href="/case/{{$val->id}}">查看详情</a></div>
+                                    <div class="example-page2-hover"><a href="/case/{{$val->id}}">see details</a></div>
                                 </div>
                             </div>
                           </a>
@@ -148,7 +148,7 @@
                               <div class="example-imgs-box">
                                   <div class="example-page2-image-team example-page2-image1"style="background: url(storage/{{$val['image']}}) no-repeat;"></div>
                                   <div class="example-page2-image-team example-page2-hover-box example-page2-image{{$val->id}}-alt hiden">
-                                      <div class="example-page2-hover"><a href="/case/{{$val->id}}">查看详情</a></div>
+                                      <div class="example-page2-hover"><a href="/case/{{$val->id}}">see details</a></div>
                                   </div>
                               </div>
                             </a>
@@ -171,21 +171,21 @@
                     <div class="logo"><img src="image/logo.png"/></div>
                     <div class="footer-nav">
                         <ul>
-                          <li><a href="{{route('home')}}">首页</a></li>
-                          <li><a href="{{route('case')}}">案例介绍</a></li>
-                          <li><a href="{{route('awards')}}">获奖记录</a></li>
-                          <li><a href="{{route('abouts')}}">关于一树</a></li>
-                          <li><a href="{{route('news')}}">观点资讯</a></li>
-                          <li><a href="{{route('contact')}}">联系我们</a></li>
+                          <li><a href="{{route('home')}}">Home</a></li>
+                          <li><a href="{{route('case')}}">Cases</a></li>
+                          <li><a href="{{route('awards')}}">Awards</a></li>
+                          <li><a href="{{route('abouts')}}">About</a></li>
+                          <li><a href="{{route('news')}}">News</a></li>
+                          <li><a href="{{route('contact')}}">Contact</a></li>
                         </ul>
                     </div>
                     <div class="footer-contact">
                         <div class="qrcode"><img src="/storage/{{$config['qrcode']}}"/></div>
                         <div class="contact">
                             <ul>
-                              <li>电话：{{$config['phone']}}</li>
-                              <li>邮箱：{{$config['email']}}</li>
-                              <li>地点：{{$config['address']}}</li>
+                              <li>Tel：{{$config['phone']}}</li>
+                              <li>Email：{{$config['email']}}</li>
+                              <li>Addr：{{$config['address']}}</li>
                             </ul>
                         </div>
                     </div>

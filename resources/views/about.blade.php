@@ -20,8 +20,8 @@
             <div class="nav" id="nav">
                 <div class="menu">
                     <img src="image/logo.png" class="logo"/>
-                    <div class="menu-block"><span>红点奖</span><br><span>IF 奖</span></div>
-                    <div class="menu-block"><span>世界之星奖</span><br><span>IDEA奖</span></div>
+                    <div class="menu-block"><span>Red dot Award</span><br><span>IF Award</span></div>
+                    <div class="menu-block"><span>World Star Award</span><br><span>IDEA Award</span></div>
                 </div>
             </div>
             <div class="other-nav logo-btn-box">
@@ -41,22 +41,22 @@
                 </div>
                 <ul class='login-con'>
                   <li>
-                      <div><a href="{{route('home')}}">首页</a></div>
+                      <div><a href="{{route('home')}}">Home</a></div>
                   </li>
                   <li>
-                      <div><a href="{{route('case')}}">案例介绍</a></div>
+                      <div><a href="{{route('case')}}">Cases</a></div>
                   </li>
                   <li>
-                      <div><a href="{{route('awards')}}">获奖记录</a></div>
+                      <div><a href="{{route('awards')}}">Awards</a></div>
                   </li>
                   <li>
-                      <div><a href="{{route('abouts')}}">关于一树</a></div>
+                      <div><a href="{{route('abouts')}}">About</a></div>
                   </li>
                   <li>
-                      <div><a href="{{route('news')}}">观点资讯</a></div>
+                      <div><a href="{{route('news')}}">News</a></div>
                   </li>
                   <li>
-                      <div><a href="{{route('contact')}}">联系我们</a></div>
+                      <div><a href="{{route('contact')}}">Contact</a></div>
                   </li>
                 </ul>
             </div>
@@ -132,7 +132,7 @@
                     </div>
                     @endif
                   @endforeach
-                  
+
                 </div>
 
             </div>
@@ -159,21 +159,21 @@
                     <div class="logo"><img src="image/logo.png"/></div>
                     <div class="footer-nav">
                         <ul>
-                            <li><a href="{{route('home')}}">首页</a></li>
-                            <li><a href="{{route('case')}}">案例介绍</a></li>
-                            <li><a href="{{route('awards')}}">获奖记录</a></li>
-                            <li><a href="{{route('abouts')}}">关于一树</a></li>
-                            <li><a href="{{route('news')}}">观点资讯</a></li>
-                            <li><a href="{{route('contact')}}">联系我们</a></li>
+                          <li><a href="{{route('home')}}">Home</a></li>
+                          <li><a href="{{route('case')}}">Cases</a></li>
+                          <li><a href="{{route('awards')}}">Awards</a></li>
+                          <li><a href="{{route('abouts')}}">About</a></li>
+                          <li><a href="{{route('news')}}">News</a></li>
+                          <li><a href="{{route('contact')}}">Contact</a></li>
                         </ul>
                     </div>
                     <div class="footer-contact">
                         <div class="qrcode"><img src="/storage/{{$config['qrcode']}}"/></div>
                         <div class="contact">
                             <ul>
-                              <li>电话：{{$config['phone']}}</li>
-                              <li>邮箱：{{$config['email']}}</li>
-                              <li>地点：{{$config['address']}}</li>
+                              <li>Tel：{{$config['phone']}}</li>
+                              <li>Email：{{$config['email']}}</li>
+                              <li>Addr：{{$config['address']}}</li>
                             </ul>
                         </div>
                     </div>
