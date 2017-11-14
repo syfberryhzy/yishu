@@ -109,7 +109,7 @@ class CompanyIntroduceController extends Controller
             $form->text('title', '简介标题');
             $form->editor('body', '简介内容');
             $form->image('image', '介绍主图')->uniqueName()->move('upload/company_introduce/image');
-            $form->multipleImage('banner_image', '轮播图')->uniqueName()->move('upload/company_introduce/banner_image');
+            $form->multipleImage('banner_image', '轮播图')->removable()->uniqueName()->move('upload/company_introduce/banner_image');
             $form->text('description', '描述');
             $form->display('created_at', 'Created At');
             $form->display('updated_at', 'Updated At');

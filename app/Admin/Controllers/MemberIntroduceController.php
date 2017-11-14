@@ -94,7 +94,7 @@ class MemberIntroduceController extends Controller
             $form->text('description', '简介');
             $form->editor('body', '详情');
             $form->image('image', '主图')->uniqueName()->move('upload/member_introduce/image');
-            $form->multipleImage('banner_image', '轮播图')->uniqueName()->move('upload/member_introduce/banner_image');
+            $form->multipleImage('banner_image', '轮播图')->removable()->uniqueName()->move('upload/member_introduce/banner_image');
 
             $form->saving( function (Form $form) {
                 $form->category_id = 10;
