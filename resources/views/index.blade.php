@@ -173,7 +173,7 @@
     <div class="home-page2-flex page section3 section index-section3 home-page3-section " id="page-3">
         <div class="home-about">
             <div class="block-title">
-                <h1><a style="color: #333" href="./with_yishu.html">About ISU</a></h1>
+                <h1><a style="color: #333" href="{{route('about')}}">About ISU</a></h1>
                 <hr class="center-block home-hr"/>
                 <h4>We are young and energetic, we are professional and serious</h4>
             </div>
@@ -190,10 +190,8 @@
                         <p>Including the world's three major design awards: Germany if, red dot, the United States IDEA Design Award and a series of domestic and foreign authority awards.<br>
                             Won the World Organization for Packaging Star Wrapping Award The only Chairman of the current domestic awards (three global each year).<br>
                             Won six world star packaging award.<br>
-                            Won more than 20 national patents.<br>
-                            China 2016 Guanghua Dragon Award design industry 10 outstanding young nominees (20 in the country, approved by the National Award Office, Lu Yongxiang personally presented).<br>
-                            Access to provincial and ministerial packaging science and technology award, selected for the Ministry of education, Ministry of finance double hit talent plan national key talent pool member.</p>
-                        <p>
+                            Won more than 20 national patents.
+                          <p>
                             We are a young, energetic young team composed solely of "obsessive-compulsive disorder" and "perfectionist". Young absolutely does not mean that we are not professional, because of young, we are more afraid to slacken, your every design, we will be our best case of propaganda, go all out.</p>
                     </div>
                 </div>
