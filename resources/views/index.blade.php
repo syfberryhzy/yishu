@@ -184,7 +184,7 @@
                 </div>
                 <div class="item-desc">
                     <div class="item-desc-logo"><img src="image/about-logo.png"></div>
-                    <div class="item-desc-content" style="height: 500px;overflow: scroll;">
+                    <div class="item-desc-content">
                         <p>
                           ISU design ISU Paper Group's professional design company, specializing in professional design services, packaging design, corporate brand image design and cultural and creative product development. Our team is led by a well-known design director in the industry and all designers are selected by layers. A series of important achievements have been made:</p>
                         <p>Including the world's three major design awards: Germany if, red dot, the United States IDEA Design Award and a series of domestic and foreign authority awards.<br>
@@ -204,7 +204,7 @@
     <div class="page section4 section" id="page-4">
         <div class="home-page4-sj">
             <div class="container home-page4-bottom home-page4-bottom-bt" style="position:relative;">
-                <h1 class="text-center home-page2-big-title"><a style="color: #333" href="./example.html">Cases</a></h1>
+                <h1 class="text-center home-page2-big-title"><a style="color: #333" href="{{route('case')}}">Cases</a></h1>
                 <hr class="center-block home-hr"/>
                 <h4 class="text-center home-page2-big-title-txt">Every partner, we all use 100% sincerity to serve</h4>
             </div>
