@@ -173,7 +173,7 @@
     <div class="home-page2-flex page section3 section index-section3 home-page3-section " id="page-3">
         <div class="home-about">
             <div class="block-title">
-                <h1><a style="color: #333" href="{{route('about')}}">About ISU</a></h1>
+                <h1><a style="color: #333" href="{{route('abouts')}}">About ISU</a></h1>
                 <hr class="center-block home-hr"/>
                 <h4>We are young and energetic, we are professional and serious</h4>
             </div>
