@@ -2,7 +2,8 @@
 <html>
 <head lang="en">
     <meta charset="UTF-8">
-    <link rel="shortcut icon"type="image/x-icon" href="images/banner/layer6.png"media="screen" />
+    <link rel="icon" href="fav.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="/image/fav.ico" type="image/x-icon">
     <meta name="viewport" content="width=device-width,initial-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
     <link rel="stylesheet" href="css/reset.css" type="text/css" media="screen"/>
     <link rel="stylesheet" href="css/bootstrap.min.css">
@@ -180,9 +181,8 @@
                 </div>
             </div>
             <div class="footer-copiright">
-                <span>&copy; 2000-2017 DXY All rights reserved.</span>
-                <span>浙ICP备15034012号-2</span>
-                <span>浙公网安备 33010802005190号</span>
+              <span>Copyright &copy; isudesign.com</span>
+              <span>浙ICP备17047746号-1</span>
             </div>
         </div>
     </div>
