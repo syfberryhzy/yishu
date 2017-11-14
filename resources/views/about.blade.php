@@ -2,6 +2,8 @@
 <html>
 <head lang="en">
     <meta charset="UTF-8">
+    <link rel="icon" href="fav.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="/image/fav.ico" type="image/x-icon">
     <link rel="shortcut icon"type="image/x-icon" href="images/banner/layer6.png"media="screen" />
     <meta name="viewport" content="width=device-width,initial-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
     <link rel="stylesheet" href="css/reset.css" type="text/css" media="screen"/>
