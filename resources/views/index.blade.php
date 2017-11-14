@@ -177,7 +177,7 @@
     <div class="home-page2-flex page section3 section index-section3 home-page3-section " id="page-3">
         <div class="home-about">
             <div class="block-title">
-                <h1><a style="color: #333" href="./with_yishu.html">关于一树</a></h1>
+                <h1><a style="color: #333" href="{{route('abouts')}}">关于一树</a></h1>
                 <hr class="center-block home-hr"/>
                 <h4>我们年轻活力，我们专业认真</h4>
             </div>
@@ -210,7 +210,7 @@
     <div class="page section4 section" id="page-4">
         <div class="home-page4-sj">
             <div class="container home-page4-bottom home-page4-bottom-bt" style="position:relative;">
-                <h1 class="text-center home-page2-big-title"><a style="color: #333" href="./example.html">案例介绍</a></h1>
+                <h1 class="text-center home-page2-big-title"><a style="color: #333" href="{{route('case')}}">案例介绍</a></h1>
                 <hr class="center-block home-hr"/>
                 <h4 class="text-center home-page2-big-title-txt">每位伙伴，我们都用百分百的诚意来服务</h4>
             </div>
