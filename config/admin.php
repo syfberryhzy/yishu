@@ -2,20 +2,20 @@
 
 return [
 
-    /*
-     * Laravel-admin name.
-     */
-    'name'      => 'Laravel-admin',
+     /*
+      * Laravel-admin name.
+      */
+     'name'      => '一树企业',
 
-    /*
-     * Logo in admin panel header.
-     */
-    'logo'      => '<b>Laravel</b> admin',
+     /*
+      * Logo in admin panel header.
+      */
+     'logo'      => '<b>一树</b> 企业',
 
-    /*
-     * Mini-logo in admin panel header.
-     */
-    'logo-mini' => '<b>La</b>',
+     /*
+      * Mini-logo in admin panel header.
+      */
+     'logo-mini' => '<b>一树</b>',
 
     /*
      * Route configration.
