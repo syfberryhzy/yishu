@@ -189,14 +189,19 @@
                 <div class="item-desc">
                     <div class="item-desc-logo"><img src="image/about-logo.png"></div>
                     <div class="item-desc-content">
-                        <p>
-                          ISU design ISU Paper Group's professional design company, specializing in professional design services, packaging design, corporate brand image design and cultural and creative product development. Our team is led by a well-known design director in the industry and all designers are selected by layers. A series of important achievements have been made:</p>
-                        <p>Including the world's three major design awards: Germany if, red dot, the United States IDEA Design Award and a series of domestic and foreign authority awards.<br>
-                            Won the World Organization for Packaging Star Wrapping Award The only Chairman of the current domestic awards (three global each year).<br>
-                            Won six world star packaging award.<br>
-                            Won more than 20 national patents.
-                          <p>
-                            We are a young, energetic young team composed solely of "obsessive-compulsive disorder" and "perfectionist". Young absolutely does not mean that we are not professional, because of young, we are more afraid to slacken, your every design, we will be our best case of propaganda, go all out.</p>
+                      <p>
+                        ISU Design is a professional design company as a unity of YISHU PAPER group. Our main service is professional design, package design, VI design and cultural and creative products development. Our team is led by a famous design director—Professor Chen. All of our designers have passed several selections. We have finished hundreds commercial projects in earlier phase and get dominant results:
+                      </p>
+                      <p>
+                        We have three world-famous awards: Red Dot Award, IF Award, IDEA Award.<br/>
+                        We have won the World Star for Packaging President’s Award (Only three winner every year).<br/>
+                        We have son six times of World Star Award.<br/>
+                        Our main member has win the Top Ten Youth of design area.<br/>
+                        We have 20 national patent.
+                       </p>
+                       <p>
+                         We are young group consisted of “design obsessions” and “perfectionist”. Youth doesn’t mean we are not professional. Instead, youth give us the power to serve every client will full sincerity.
+                       </p>
                     </div>
                 </div>
             </div>
