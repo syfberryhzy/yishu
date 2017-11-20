@@ -2,6 +2,10 @@
 <html>
 <head lang="en">
     <meta charset="UTF-8">
+    <title>一树设计 官网</title>
+    <meta name="keywords" content="一树设计，杭州包装设计，企业品牌形象设计，文化创意开发，产品包装设计，纸盒包装创意设计，杭州包装设计公司，logo设计，平面海报设计，UI设计，设计公司，企业品牌形象上设计，品牌策划设计，杭州品牌策划设计公司，杭州文化创意公司，文化创意设计，创意设计">
+    <meta name="description" content="一树设计，全国领先的设计公司，致力于为广大用户提供专业、完善的包装设计/企业品牌形象设计,及文创产品开发等服务。">
+
     <link rel="icon" href="favicon.ico" type="image/x-icon">
     <link rel="shortcut icon" href="/image/favicon.ico" type="image/x-icon">
     <meta name="viewport" content="width=device-width,initial-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
@@ -16,7 +20,7 @@
             &lt;!&ndash; 如果 scrollOverflow 设置为 true，则需要引入 jquery.slimscroll.min.js，一般情况下不需要 &ndash;&gt;
             <script src="js/jquery.slimscroll.min.js"></script>-->
     <script src="js/parallax.js"></script>
-    <title>首页</title>
+
     <script src="js/main.js"></script>
     <style>
         .login-con > li > div > a :hover{
@@ -131,7 +135,7 @@
     <div class="page section2 section home-page2-section" id="page-2">
         <div class="home-design">
             <div class="block-title">
-                <h1>定制属于你的设计</h1>
+                <h1>服务架构</h1>
                 <hr class="center-block home-hr"/>
                 <h4>你需要的，由我们为你量身打造</h4>
             </div>
@@ -139,34 +143,31 @@
                 <div class="item">
                     <div class="item-title">
                         <img src="image/brand_design_b.png"/>
-                        <div class="item-title-subtitle">品牌设计</div>
-                        <div class="item-title-subtitle-en">Brand Design</div>
+                        <div class="item-title-subtitle">品牌视觉设计</div>
+                        <div class="item-title-subtitle-en">VI Design</div>
                     </div>
                     <div class="item-content">
-                        isual
-                        Identity（视觉识别系统），这是一个国际全新的设计理念，包括图形（LOGO）设计，专用字体，标准色彩等。设计到位、实施科学的视觉识别系统，是传播企业经营理念、建立企业知名度、塑造企业形象的快速便捷之途。企业通过VI设计，对内可以征得员工的认同感，归属感，加强企业凝聚力，对外可以树立企业的整体形象。
+                        Visual Identity（视觉识别系统），这是一个国际全新的设计理念，包括图形（LOGO）设计，专用字体，标准色彩等。设计到位、实施科学的视觉识别系统，是传播企业经营理念、建立企业知名度、塑造企业形象的快速便捷之途。企业通过VI设计，对内可以征得员工的认同感，归属感，加强企业凝聚力，对外可以树立企业的整体形象。
                     </div>
                 </div>
                 <div class="item">
                     <div class="item-title">
                         <img src="image/package_design_b.png"/>
-                        <div class="item-title-subtitle">包装设计</div>
-                        <div class="item-title-subtitle-en">Package Design</div>
+                        <div class="item-title-subtitle">包装</div>
+                        <div class="item-title-subtitle-en">Package</div>
                     </div>
                     <div class="item-content">
-                        isual
-                        Identity（视觉识别系统），这是一个国际全新的设计理念，包括图形（LOGO）设计，专用字体，标准色彩等。设计到位、实施科学的视觉识别系统，是传播企业经营理念、建立企业知名度、塑造企业形象的快速便捷之途。企业通过VI设计，对内可以征得员工的认同感，归属感，加强企业凝聚力，对外可以树立企业的整体形象。
+                        我们通过大量市场调查，为您的产品找寻最恰当的市场定位。并且通过市场定位和您的企业形象，重新设计产品包装，为您的产品实现进一步的价值提升。我们以一树纸业作为依托，从原纸到成品包装，从头到尾为您定制一站式服务。我们不做华而不实的图片，我们只做功能与美观兼备的包装，从而助力您的企业发展。
                     </div>
                 </div>
                 <div class="item">
                     <div class="item-title">
                         <img src="image/Cultural_Creativity_b.png"/>
-                        <div class="item-title-subtitle">文化创意</div>
-                        <div class="item-title-subtitle-en">Cultural Creativity</div>
+                        <div class="item-title-subtitle">文化创意产品</div>
+                        <div class="item-title-subtitle-en">Cultural & Creative Products</div>
                     </div>
                     <div class="item-content">
-                        isual
-                        Identity（视觉识别系统），这是一个国际全新的设计理念，包括图形（LOGO）设计，专用字体，标准色彩等。设计到位、实施科学的视觉识别系统，是传播企业经营理念、建立企业知名度、塑造企业形象的快速便捷之途。企业通过VI设计，对内可以征得员工的认同感，归属感，加强企业凝聚力，对外可以树立企业的整体形象。
+                        我们拥有独具风格的文创品牌，以文化为元素，利用不同载体呈现出再造与创新的文化产品。如文具、纪念品、创意礼品、贺卡海报等。我们天马行空，发挥极致的创造力，决心要为“沉闷”已久的市场，注入年轻活力的设计。
                     </div>
                 </div>
             </div>
@@ -189,16 +190,20 @@
                 <div class="item-desc">
                     <div class="item-desc-logo"><img src="image/about-logo.png"></div>
                     <div class="item-desc-content">
-                        <p>
-                            一树设计是一树纸业集团旗下的专业设计公司，主营专业设计服务，包装设计，企业品牌形象设计以及文创产品开发。我们的团队由业内知名设计总监带领，所有设计师均经过层层选拔。取得了一系列重要成果：</p>
-                        <p>囊括世界3大设计奖:德国if、红点、美国IDEA设计奖以及一系列国内外权威奖项。<br>
-                            获得联合国世界包装组织世界之星包装奖国内目前唯一主席大奖（每年全球3名）。<br>
-                            获得6项世界之星包装奖。<br>
-                            获国家专利20多项。<br>
-                            中国2016光华龙腾奖设计业10大杰出青年提名（全国20名，国家奖励办公室批准、路甬祥亲自颁发）。<br>
-                            获得省部级包装科学技术奖,入选教育部、财政部双创人才计划国家重点人才库成员。</p>
-                        <p>
-                            我们是个充满活力的，完全由“设计强迫症”“完美主义者”组建而成的年轻团队。年轻绝对不代表我们不专业，正因为年轻，我们更不敢懈怠，您的每一次设计，我们都会作为我们最好的宣传案例，全力以赴。</p>
+                      <p>
+                        一树设计是一树纸业集团旗下的专业设计公司，主营专业设计服务，包装设计，企业品牌形象设计以及文创产品开发。我们的团队由业内知名设计总监带领，所有设计师均经过层层选拔。公司在前期工作室阶段完成商业项目百余项，并且取得了一系列重要成果：
+                      </p>
+                      <p>
+                        囊括世界3大设计奖:德国if、红点、美国IDEA设计奖以及一系列国内外权威奖项。<br/>
+                        获得联合国世界包装组织世界之星包装奖国内目前唯一主席大奖（每年全球3名）。<br/>
+                        获得6项世界之星包装奖（联合国世界包装组织）<br/><br/>
+                        公司成员获得设计人才的国家级奖项： 2016中国光华龙腾提名奖设计业10大杰出青年（国家科技奖励办公室）
+                        获得中国包装科学技术奖,公司骨干入选国家双创人才计划重点人才库。<br/>
+                        获得国家专利20多项。
+                      </p>
+                      <p>
+                        我们是个充满活力的，完全由“设计强迫症”“完美主义者”组建而成的年轻团队。年轻绝对不代表我们不专业，正因为年轻，我们更不敢懈怠，您的每一次设计，我们都会作为我们最好的宣传案例，全力以赴。
+                      </p>
                     </div>
                 </div>
             </div>
