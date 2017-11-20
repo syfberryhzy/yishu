@@ -2,6 +2,9 @@
 <html>
 <head lang="en">
     <meta charset="UTF-8">
+    <title>一树设计 官网</title>
+    <meta name="keywords" content="一树设计，杭州包装设计，企业品牌形象设计，文化创意开发，产品包装设计，纸盒包装创意设计，杭州包装设计公司，logo设计，平面海报设计，UI设计，设计公司，企业品牌形象上设计，品牌策划设计，杭州品牌策划设计公司，杭州文化创意公司，文化创意设计，创意设计">
+    <meta name="description" content="一树设计，全国领先的设计公司，致力于为广大用户提供专业、完善的包装设计/企业品牌形象设计,及文创产品开发等服务。">
     <link rel="icon" href="favicon.ico" type="image/x-icon">
     <link rel="shortcut icon" href="/image/favicon.ico" type="image/x-icon">
     <meta name="viewport" content="width=device-width,initial-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
@@ -15,7 +18,7 @@
             &lt;!&ndash; 如果 scrollOverflow 设置为 true，则需要引入 jquery.slimscroll.min.js，一般情况下不需要 &ndash;&gt;
             <script src="js/jquery.slimscroll.min.js"></script>-->
     <script src="js/parallax.js"></script>
-    <title>Home</title>
+
     <script src="js/main.js"></script>
     <style>
         .login-con > li > div > a :hover{
@@ -130,39 +133,40 @@
     <div class="page section2 section home-page2-section" id="page-2">
         <div class="home-design">
             <div class="block-title">
-                <h1>Custom design belongs to you</h1>
+                <h1>Service</h1>
                 <hr class="center-block home-hr"/>
-                <h4>You need, tailored by us for you</h4>
+                <h4>We customize everything you need</h4>
             </div>
             <div class="home-design-content block-content clearfix">
                 <div class="item">
                     <div class="item-title">
                         <img src="image/brand_design_b.png"/>
-                        <div class="item-title-subtitle">品牌设计</div>
-                        <div class="item-title-subtitle-en">Brand Design</div>
+                        <div class="item-title-subtitle">品牌视觉设计</div>
+                        <div class="item-title-subtitle-en">VI Design</div>
                     </div>
                     <div class="item-content">
-                        isua Identity (visual recognition system), which is a new international design concept, including the logo (LOGO) design, special fonts, standard color and so on. Design in place, the implementation of a scientific visual identification system, is to spread business philosophy, establish business reputation, create a corporate image of fast and easy way. VI through the design of enterprises, the internal staff can get the recognition, sense of belonging, strengthen cohesion, foreign companies can establish the overall image.
+                      Visual Identity is an international brand new design concept which includes logo design, proprietary typeface, standard color, etc. Reasonable and professional VI is a rapid and convenient way to propagate company concept and build popularity. Corporate culture can enhance the internal cohesion and solidarity, external image and expending the influence.
                     </div>
                 </div>
                 <div class="item">
                     <div class="item-title">
                         <img src="image/package_design_b.png"/>
-                        <div class="item-title-subtitle">包装设计</div>
-                        <div class="item-title-subtitle-en">Package Design</div>
+                        <div class="item-title-subtitle">包装</div>
+                        <div class="item-title-subtitle-en">Package</div>
                     </div>
                     <div class="item-content">
-                      isua Identity (visual recognition system), which is a new international design concept, including the logo (LOGO) design, special fonts, standard color and so on. Design in place, the implementation of a scientific visual identification system, is to spread business philosophy, establish business reputation, create a corporate image of fast and easy way. VI through the design of enterprises, the internal staff can get the recognition, sense of belonging, strengthen cohesion, foreign companies can establish the overall image.
+                      We will find out the right orientation for your product through large market survey, and redesign your product package through it. Consequently, we will help you to improve your product value. Based on YISHU Paper group, we customize everything for you through base paper to package production. We only make beautiful and practical package instead of luxury and useless design to help your company’s development.
+
                     </div>
                 </div>
                 <div class="item">
                     <div class="item-title">
                         <img src="image/Cultural_Creativity_b.png"/>
-                        <div class="item-title-subtitle">文化创意</div>
+                        <div class="item-title-subtitle">文化创意产品</div>
                         <div class="item-title-subtitle-en">Cultural Creativity</div>
                     </div>
                     <div class="item-content">
-                        isua Identity (visual recognition system), which is a new international design concept, including the logo (LOGO) design, special fonts, standard color and so on. Design in place, the implementation of a scientific visual identification system, is to spread business philosophy, establish business reputation, create a corporate image of fast and easy way. VI through the design of enterprises, the internal staff can get the recognition, sense of belonging, strengthen cohesion, foreign companies can establish the overall image.
+                      We have unique-style cultural & creative products, which based on culture and use different carrier to show the creativity. We will sell stationery, souvenir, creative gifts, postcard, etc. Our creativity will break the toneless market and inject young design.
                     </div>
                 </div>
             </div>
@@ -173,9 +177,9 @@
     <div class="home-page2-flex page section3 section index-section3 home-page3-section " id="page-3">
         <div class="home-about">
             <div class="block-title">
-                <h1><a style="color: #333" href="{{route('abouts')}}">About ISU</a></h1>
+                <h1><a style="color: #333" href="{{route('abouts')}}">About us</a></h1>
                 <hr class="center-block home-hr"/>
-                <h4>We are young and energetic, we are professional and serious</h4>
+                <h4>Young and energetic, professional and earnest</h4>
             </div>
             <div class="home-about-content clearfix">
                 <div class="item-image">
@@ -204,9 +208,9 @@
     <div class="page section4 section" id="page-4">
         <div class="home-page4-sj">
             <div class="container home-page4-bottom home-page4-bottom-bt" style="position:relative;">
-                <h1 class="text-center home-page2-big-title"><a style="color: #333" href="{{route('case')}}">Cases</a></h1>
+                <h1 class="text-center home-page2-big-title"><a style="color: #333" href="{{route('case')}}">Case</a></h1>
                 <hr class="center-block home-hr"/>
-                <h4 class="text-center home-page2-big-title-txt">Every partner, we all use 100% sincerity to serve</h4>
+                <h4 class="text-center home-page2-big-title-txt">We serve every partner with full sincerity</h4>
             </div>
             <div class="container home-page4-imgbox " style="position:relative;">
 
@@ -340,7 +344,7 @@
                             <ul>
                               <li>Tel：{{$config['phone']}}</li>
                               <li>Email：{{$config['email']}}</li>
-                              <li>Addr：{{$config['address']}}</li>
+                              <li>Address：{{$config['address']}}</li>
                             </ul>
                         </div>
                     </div>

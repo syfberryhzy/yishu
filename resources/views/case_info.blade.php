@@ -3,6 +3,9 @@
 <head lang="en">
     <meta charset="UTF-8">
     <title>Case Info</title>
+    <meta name="keywords" content="一树设计，杭州包装设计，企业品牌形象设计，文化创意开发，产品包装设计，纸盒包装创意设计，杭州包装设计公司，logo设计，平面海报设计，UI设计，设计公司，企业品牌形象上设计，品牌策划设计，杭州品牌策划设计公司，杭州文化创意公司，文化创意设计，创意设计">
+    <meta name="description" content="一树设计，全国领先的设计公司，致力于为广大用户提供专业、完善的包装设计/企业品牌形象设计,及文创产品开发等服务。">
+
     <link rel="icon" href="favicon.ico" type="image/x-icon">
     <link rel="shortcut icon" href="/image/favicon.ico" type="image/x-icon">
     <meta name="viewport" content="width=device-width,initial-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
@@ -118,7 +121,7 @@
                             <ul>
                               <li>Tel：{{$config['phone']}}</li>
                               <li>Email：{{$config['email']}}</li>
-                              <li>Addr：{{$config['address']}}</li>
+                              <li>Address：{{$config['address']}}</li>
                             </ul>
                         </div>
                     </div>
