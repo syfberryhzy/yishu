@@ -187,7 +187,7 @@
                     <img src="image/company-mobile.jpg" class="home-about-item-image-mobile">
                 </div>
                 <div class="item-desc">
-                    <div class="item-desc-logo"><img src="image/about-logo.png"></div>
+                    <div class="item-desc-logo"><img src="image/about.jpg"></div>
                     <div class="item-desc-content">
                       <p>
                         ISU Design is a professional design company as a unity of YISHU PAPER group. Our main service is professional design, package design, VI design and cultural and creative products development. Our team is led by a famous design director—Professor Chen. All of our designers have passed several selections. We have finished hundreds commercial projects in earlier phase and get dominant results:
