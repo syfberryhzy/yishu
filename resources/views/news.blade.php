@@ -8,8 +8,8 @@
     <link rel="stylesheet" href="/css/bootstrap.min.css">
     <link rel="stylesheet" href="/css/common.css" type="text/css" media="screen"/>
     <link rel="stylesheet" href="/css/pagination.css">
-    <link rel="icon" href="fav.ico" type="image/x-icon">
-    <link rel="shortcut icon" href="/image/fav.ico" type="image/x-icon">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="/image/favicon.ico" type="image/x-icon">
     <script src="/js/jquery.js"></script>
     <script src="/js/jquery.pagination.js"></script>
 

@@ -3,8 +3,8 @@
 <head lang="en">
     <meta charset="UTF-8">
     <title>案例详情</title>
-    <link rel="icon" href="fav.ico" type="image/x-icon">
-    <link rel="shortcut icon" href="/image/fav.ico" type="image/x-icon">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="/image/favicon.ico" type="image/x-icon">
     <meta name="viewport" content="width=device-width,initial-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
     <link rel="stylesheet" href="/css/reset.css" type="text/css" media="screen"/>
     <link rel="stylesheet" href="/css/bootstrap.min.css">
