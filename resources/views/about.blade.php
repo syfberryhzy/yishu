@@ -96,7 +96,7 @@
                     <div class="about-page-introdution-title">
                         <div class="blue-squre">T</div>
                         <div class="subtitle">
-                            <span>Team 团队介绍</span>
+                            <span>Our team 团队介绍</span>
                             <span>Introdution</span>
                         </div>
                     </div>
