@@ -109,7 +109,7 @@ class CaseIntroduceController extends Controller
             $form->text('title', '案例名称');
             $form->text('description', '案例描述');
             $form->editor('body', '案例详情');
-            $form->image('image', '案例主图')->uniqueName()->move('upload/cate_introduce/images');
+            $form->image('image', '案例主图')->removeable()->uniqueName()->move('upload/cate_introduce/images');
             $form->multipleImage('banner_image', '案例组图')->removable()->uniqueName()->move('upload/cate_introduce/banner_image');
 
             $states = [
