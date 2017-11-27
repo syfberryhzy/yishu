@@ -17,7 +17,7 @@ class CreateBannersTable extends Migration
             $table->increments('id');
             $table->integer('category_id')->nullable()->unsigned();
             $table->foreign('category_id')->references('id')->on('categories')->onDelete('set null');
-            $table->string('image')->comment('主图')->nullable();
+            $table->string('image')->nullable()->comment('主图')->nullable();
             $table->timestamps();
         });
     }

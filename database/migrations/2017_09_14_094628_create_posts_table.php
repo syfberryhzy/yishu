@@ -20,8 +20,8 @@ class CreatePostsTable extends Migration
             $table->string('title')->comment('文章标题');
             $table->string('description')->nullable()->comment('简述');
             $table->text('body')->comment('文章内容');
-            $table->string('image')->comment('主图');
-            $table->text('banner_image')->comment('多图片')->nullable();
+            $table->string('image')->nullable()->comment('主图');
+            $table->text('banner_image')->nullable()->comment('多图片')->nullable();
             $table->tinyInteger('status')->comment('状态1/0')->default(1);
             $table->timestamps();
         });

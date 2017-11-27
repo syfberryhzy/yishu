@@ -117,7 +117,7 @@ class IndexController extends Controller
             $form->text('title', '图文标题')->rules('required');
             $form->text('description', '图文简述')->rules('required');
             $form->editor('body', '图文内容')->rules('required');
-            $form->image('image', '图文主图')->uniqueName()->move('upload/webindex/image')->rules('required');
+            $form->image('image', '图文主图')->removable()->uniqueName()->move('upload/webindex/image')->rules('required');
             $form->multipleImage('banner_image', '图文组图')->removable()->uniqueName()->move('upload/webindex/banner_image');
             // $states = [
             //     'on'  => ['value' => 1, 'text' => 'Yes', 'color' => 'success'],

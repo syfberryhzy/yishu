@@ -105,7 +105,7 @@ class RecordController extends Controller
             $form->text('english_name', '英文名称');
             $form->text('ranking', '比赛名次哦');
             $form->year('date', '年份');
-            $form->image('image', '获奖图片')->uniqueName()->move('upload/record/image');
+            $form->image('image', '获奖图片')->removable()->uniqueName()->move('upload/record/image');
             #$form->display('created_at', 'Created At');
             #$form->display('updated_at', 'Updated At');
         });

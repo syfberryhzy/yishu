@@ -102,7 +102,7 @@ class SystemInfoController extends Controller
             $form->text('address', '地址');
             $form->text('phone', '电话');
             $form->email('email', '邮箱');
-            $form->image('qrcode', '二维码')->uniqueName()->move('upload/system_info/image');
+            $form->image('qrcode', '二维码')->removable()->uniqueName()->move('upload/system_info/image');
             //$form->display('created_at', '创建时间');
             //$form->display('updated_at', 'Updated At');
         });

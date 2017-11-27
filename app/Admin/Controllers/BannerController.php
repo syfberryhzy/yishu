@@ -102,7 +102,7 @@ class BannerController extends Controller
             $form->display('id', 'ID');
             $form->display('category.title', '所属分类');
             // $form->select('category_id', '所属分类')->options(Category::where('parent_id', 0)->pluck('title', 'id'));
-            $form->image('image', 'banner')->uniqueName()->move('upload/webindex/image');
+            $form->image('image', 'banner')->removable()->uniqueName()->move('upload/webindex/image');
         });
     }
 }

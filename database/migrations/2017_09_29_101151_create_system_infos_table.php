@@ -18,7 +18,7 @@ class CreateSystemInfosTable extends Migration
             $table->string('phone', 50)->index()->comment('电话');
             $table->string('email', 50)->index()->comment('邮箱');
             $table->string('address')->index()->comment('地址');
-            $table->string('qrcode')->comment('二维码');
+            $table->string('qrcode')->nullable()->comment('二维码');
             $table->timestamps();
         });
     }

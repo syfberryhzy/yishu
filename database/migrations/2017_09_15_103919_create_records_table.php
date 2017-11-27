@@ -19,7 +19,7 @@ class CreateRecordsTable extends Migration
             $table->string('english_name')->nullable()->comment('英文名称');
             $table->string('ranking')->nullable()->comment('比赛名次');
             $table->string('date')->nullable()->comment('比赛日期');
-            $table->string('image')->comment('获奖图片');
+            $table->string('image')->nullable()->comment('获奖图片');
             $table->timestamps();
         });
     }
