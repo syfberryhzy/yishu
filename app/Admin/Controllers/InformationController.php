@@ -101,7 +101,7 @@ class InformationController extends Controller
             $form->text('title', '资讯名称');
             $form->editor('body', '资讯内容');
             $form->text('description', '资讯描述');
-            $form->image('image', '主图')->removeable()->uniqueName()->move('/upload/information/image');
+            $form->image('image', '主图')->removable()->uniqueName()->move('/upload/information/image');
             $form->multipleImage('banner_image', '轮播图')->removable()->uniqueName()->move('upload/company_introduce/banner_image');
             // $form->display('created_at', 'Created At');
             // $form->display('updated_at', 'Updated At');
