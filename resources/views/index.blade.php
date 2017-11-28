@@ -188,7 +188,11 @@
                     <img src="image/company-mobile.jpg" class="home-about-item-image-mobile">
                 </div>
                 <div class="item-desc">
-                    <div class="item-desc-logo"><img src="image/about-logo.png"></div>
+                    <div class="item-desc-logo">
+                      <h3>ISU DESIGN</h3>
+                      <h4>品<span class="point">·</span>牌<span class="point">·</span>故<span class="point">·</span>事</h4>
+                      <img src="image/line.png"/>
+                    </div>
                     <div class="item-desc-content">
                       <p>
                         一树设计是一树纸业集团旗下的专业设计公司，主营专业设计服务，包装设计，企业品牌形象设计以及文创产品开发。我们的团队由业内知名设计总监带领，所有设计师均经过层层选拔。公司在前期工作室阶段完成商业项目百余项，并且取得了一系列重要成果：
