@@ -101,6 +101,20 @@
 
 .home-about-content .item-desc .item-desc-logo {
     margin: 35px 0;
+    color: #333;
+}
+
+.home-about-content .item-desc .item-desc-logo h3 {
+  font-size: 35px;
+}
+
+.home-about-content .item-desc .item-desc-logo h4 {
+  font-size: 24px;
+  margin: 20px 0;
+}
+
+.home-about-content .item-desc .item-desc-logo .point {
+  padding: 0 10px;
 }
 
 .home-about-content .item-desc .item-desc-content {
@@ -161,12 +175,12 @@
         text-align: center;
     }
 
-    .home-about-content .item-desc .item-desc-logo {
-        display: none;
+    .home-about-content .item-desc .item-desc-logo img {
+      display: none;
     }
 
     .home-about-content .item-desc .item-desc-content {
-        margin-top: 65px;
+        margin-top: 20px;
     }
 
     .home-about-item-image-pc {
