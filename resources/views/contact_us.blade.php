@@ -2,8 +2,9 @@
 <html>
 <head lang="en">
     <meta charset="UTF-8">
-    <meta name="keywords" content="一树设计，杭州包装设计，企业品牌形象设计，文化创意开发，产品包装设计，纸盒包装创意设计，杭州包装设计公司，logo设计，平面海报设计，UI设计，设计公司，企业品牌形象上设计，品牌策划设计，杭州品牌策划设计公司，杭州文化创意公司，文化创意设计，创意设计">
-    <meta name="description" content="一树设计，全国领先的设计公司，致力于为广大用户提供专业、完善的包装设计/企业品牌形象设计,及文创产品开发等服务。">
+    <title>一树品牌设计，一树文化创意产品，一树包装设计，一树联系方式</title>
+    <meta name="keywords" content="一树，杭州一树，一树品牌策划，一树品牌设计，一树文化创意产品开发，一树产品包装设计">
+    <meta name="description" content="一树设计是一树纸业集团旗下的专业设计公司，主营专业设计服务，包装设计，企业品牌形象设计以及文创产品开发。我们的团队由业内知名设计总监带领，所有设计师均经过层层选拔，拥有多年的技术经验。联系一树电话+86 0571-87550583 联系地址 杭州市上城区海运国际大厦">
 
     <link rel="icon" href="favicon.ico" type="image/x-icon">
     <link rel="shortcut icon" href="/image/favicon.ico" type="image/x-icon">
@@ -12,7 +13,7 @@
     <link rel="stylesheet" href="css/reset.css" type="text/css" media="screen"/>
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/common.css" type="text/css" media="screen"/>
-    <title>Contact</title>
+
     <script src="js/jquery.js"></script>
 <!--    <script src="js/parallax.js"></script>-->
     <script src="js/jquery.baiduMap.min.js"></script>
