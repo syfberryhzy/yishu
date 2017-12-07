@@ -77,4 +77,10 @@ class IndexController extends Controller
         $banner = Banner::where('category_id', Category::CONTACT_ID)->first();
         return view('contact_us', compact('banner'));
     }
+
+    public function upload(Request $request)
+    {
+        $path = \Storage::disk('admin')->putFile('wangEditor', $request->file('huishuoit'));
+        return config('filesystems.disks.admin.url') . '/' . $path;
+    }
 }
