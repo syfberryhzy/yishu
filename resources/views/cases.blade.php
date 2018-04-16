@@ -89,7 +89,7 @@
                         <div class="example-module-child">
                           <a href="/case/{{$val->id}}">
                             <div class="example-imgs-box">
-                                <div class="example-page2-image-team example-page2-image1"style="background: url(storage/{{$val['image']}}) no-repeat;"></div>
+                                <div class="example-page2-image-team example-page2-image1"style="background: url(storage/{{$val['image']}}) no-repeat; background-size: cover"></div>
                                 <div class="example-page2-image-team example-page2-hover-box example-page2-image{{$val->id}}-alt hiden">
                                     <div class="example-page2-hover"><a href="/case/{{$val->id}}">查看详情</a></div>
                                 </div>
@@ -109,7 +109,7 @@
                             <div class="example-module-child">
                               <a href="/case/{{$val->id}}">
                                 <div class="example-imgs-box">
-                                    <div class="example-page2-image-team example-page2-image1"style="background: url(storage/{{$val['image']}}) no-repeat;"></div>
+                                    <div class="example-page2-image-team example-page2-image1"style="background: url(storage/{{$val['image']}}) no-repeat; background-size: cover"></div>
                                     <div class="example-page2-image-team example-page2-hover-box example-page2-image{{$val->id}}-alt hiden">
                                         <div class="example-page2-hover"><a href="/case/{{$val->id}}">查看详情</a></div>
                                     </div>
@@ -130,7 +130,7 @@
                         <div class="example-module-child">
                           <a href="/case/{{$val->id}}">
                             <div class="example-imgs-box">
-                                <div class="example-page2-image-team example-page2-image1"style="background: url(storage/{{$val['image']}}) no-repeat;"></div>
+                                <div class="example-page2-image-team example-page2-image1"style="background: url(storage/{{$val['image']}}) no-repeat; background-size: cover"></div>
                                 <div class="example-page2-image-team example-page2-hover-box example-page2-image{{$val->id}}-alt hiden">
                                     <div class="example-page2-hover"><a href="/case/{{$val->id}}">查看详情</a></div>
                                 </div>
@@ -151,7 +151,7 @@
                           <div class="example-module-child">
                             <a href="/case/{{$val->id}}">
                               <div class="example-imgs-box">
-                                  <div class="example-page2-image-team example-page2-image1"style="background: url(storage/{{$val['image']}}) no-repeat;"></div>
+                                  <div class="example-page2-image-team example-page2-image1"style="background: url(storage/{{$val['image']}}) no-repeat; background-size: cover"></div>
                                   <div class="example-page2-image-team example-page2-hover-box example-page2-image{{$val->id}}-alt hiden">
                                       <div class="example-page2-hover"><a href="/case/{{$val->id}}">查看详情</a></div>
                                   </div>
